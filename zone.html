@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Covid-infos | Votre plateforme pour tou savoir sur le coronavirus</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien avec le fichier CSS externe -->
+    <link rel="icon" type="image/icon" href="img/logo.ico" /> <!-- Inserer l'icone du site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Rendre le site web réactif -->
+    <script type="text/javascript" src="script.js"></script> <!-- Lien avec le fichier JS externe -->
+</head>
+
+<body>
+
+    <div class="contenu">
+
+        <!-- Barre de navigation -->
+        <header class="entete" id="haut">
+         <a href="index.html"><img src="img/coronaok.png" alt="Logo" width="45%" id="logo"></a>
+         <form name="form1">
+            <input type="search" placeholder="Rechercher ici..." name="input">
+            <input type="submit" value="Rechercher" onclick="search(form1)" id="boutton">
+        </form>
+        <nav class="nav">
+            <div class="nav_main">
+                <ul>
+                    <li><a class="lien" href="index.html">Accueil</a></li>
+                    <li><a class="lien" href="situation.html">Situation nationale</a></li>
+                    <li><a class="lien active" href="zone.html">Zône à risques</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenu de la page -->
+    <div class="contenu">
+
+        <section>
+            <center>
+                <h2>Localisation des cas</h2>
+
+                <table border="2">
+                    <tr>
+                        <th>Ville(Province)</th>
+                        <th>Cas confirmés</th>
+                        <th>Guéris</th>
+                        <th>Morts</th>
+                        <th>Date du 1er cas</th>
+                    </tr>
+                    <tr>
+                        <td>Ouagadougou (Kadiogo)</td>
+                        <td>556</td>
+                        <td>469</td>
+                        <td>43</td>
+                        <td>09 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Houndé (Tuy)</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>14 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Bobo-Dioulasso (Houet)</td>
+                        <td>58</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>17 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Boromo (Balés)</td>
+                        <td>10</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>20 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Dédougou (Mouhoun)</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>20 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Banfora (Comoé)</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>22 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Manga (Zoundwéogo)</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>23 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Zorgho (Ganzourgou)</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>25 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Sindou (Léraba)</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>26 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Kongoussi (Bam)</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>26 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Dano (Ioba)</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Ziniaré (Oubritenga)</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Saponé (Bazèga)</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>02 avril 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Gorom-Gorom (Oudalan)</td>
+                        <td>14</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>08 avril 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Falangoutou (Séno)</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>10 avril 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Tougouri (Namemtenga)</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>20 avril 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Nouna (Kossi)</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>28 avril 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Sebba (Yagha)</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>04 mai 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Cas importés (France, Turquie et Niger)</td>
+                        <td>14</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>9 mars 2020</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <th>688</th>
+                        <th>548</th>
+                        <th>48</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Dernière mise à jour le 28 avril 2020</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </center>
+            <div>
+                <h2 style="text-align: center;">Évolution des cas cumulés par ville touchée</h2>
+                <img src="img/stat1.png" alt="statistique" id="stat1">
+            </div>
+        </section>
+    </div>
+    <div class="haut"><a href="#haut"> Haut ☝🏾</a></div>
+    <footer>
+        🎈Copyright &copy; 2020
+    </footer>
+</div>
+
+</body>
+</html>

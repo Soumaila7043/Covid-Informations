@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Covid-infos | Votre plateforme pour tou savoir sur le coronavirus</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien avec le fichier CSS externe -->
+    <link rel="icon" type="image/icon" href="img/logo.ico" /> <!-- Inserer l'icone du site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Rendre le site web réactif -->
+    <script type="text/javascript" src="script.js"></script> <!-- Lien avec le fichier JS externe -->
+</head>
+
+<body>
+
+    <div class="contenu">
+
+        <!-- Barre de navigation -->
+        <header class="entete" id="haut">
+           <a href="index.html"><img src="img/coronaok.png" alt="Logo" width="45%" id="logo"></a>
+           <form name="form1">
+            <input type="search" placeholder="Rechercher ici..." name="input">
+            <input type="submit" value="Rechercher" onclick="search(form1)" id="boutton">
+        </form>
+        <nav class="nav">
+            <div class="nav_main">
+                <ul>
+                    <li><a class="lien active" href="index.html">Accueil</a></li>
+                    <li><a class="lien" href="situation.html">Situation nationale</a></li>
+                    <li><a class="lien" href="zone.html">Zône à risques</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenu de la page -->
+    <div class="contenu">
+
+        <section>
+            <h1 class="alerte">La maladie est bien réelle, ensemble adoptons les bons comportements</h1>
+            <div class="call">
+                Appelez le <a href="tel:3535" id="tel">📞3535</a> en cas de symptômes
+            </div>
+        </section>
+
+        <!-- Contenu du slide -->
+        <div class="slideshow-container">
+
+          <!-- Images pour le slide avec leurs numeros -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="img/covid-info-226-prevention-1.png" class="tof" width="1200" height="710">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="img/covid-info-226-prevention-2.png" class="tof" width="1200" height="710">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="img/covid-info-226-prevention-3.png" class="tof" width="1200" height="710">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="img/covid-info-226-prevention-4.png" class="tof" width="1200" height="710">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="img/covid-info-226-prevention-5.png" class="tof" width="1200" height="710">
+        </div>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div id="dot">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+    </script>
+
+    <section id="section1">
+        <h2>Qu'est-ce que le COVID-19 ❓</h2>
+        <div class="content">
+            La maladie à coronavirus 2019 (COVID-19) est une maladie infectieuse provoquée par un nouveau virus qui n'avait encore jamais été identifié chez l'être humain. Ce virus provoque une maladie respiratoire (analogue à la grippe) avec des symptômes comme la toux, la fièvre et, dans les cas les plus sévères, une pneumonie. On peut s'en protéger en se lavant fréquemment les mains, et en évitant de se toucher le visage.
+        </div>
+    </section>
+
+    <section id="section3">
+        <h2>Que faire en cas de symptômes ❓</h2>
+        <div class="content">
+            Les spécialistes vous récommendent ces mésures: <br>
+            👉🏾L'auto-confinement (Rester chez soi)<br>
+            👉🏾Contactez les urgences (3535)<br>
+            👉🏾Evitez les contacts directs avec d’autres personnes <br>
+            👉🏾Portez un masque <br>
+            👉🏾Lavez-vous régulièrement les mains <br>
+            👉🏾N'allez pas dans des lieux publiques afin de minimiser la propagation
+        </div>
+    </section>
+
+    <section id="section2">
+        <h2>Comment se propage t'il ❓</h2>
+        <div class="content">
+            La COVID-19 est transmise par des personnes porteuses du virus. La maladie peut se transmettre d’une personne à l’autre par le biais de gouttelettes respiratoires expulsées par le nez ou par la bouche lorsqu’une personne tousse ou éternue. Ces gouttelettes peuvent se retrouver sur des objets ou des surfaces autour de la personne en question. On peut alors contracter le COVID-19 si on touche ces objets ou ces surfaces et si on se touche ensuite les yeux, le nez ou la bouche. Il est également possible de contracter le COVID-19 en inhalant des gouttelettes d’une personne malade qui vient de tousser ou d’éternuer. C’est pourquoi il est important de se tenir à plus d’un mètre d’une personne malade. L’OMS examine les travaux de recherche en cours sur la manière dont le COVID-19 se propage et elle continuera à communiquer les résultats actualisés.
+        </div>
+    </section>
+
+    <section id="section4">
+        <h2>Résumé en video</h2>
+        <video controls="controls" src="img/infocovid.mp4" width="599"></video>
+    </section>
+
+</div>
+<div class="haut"><a href="#haut"> Haut ☝🏾</a></div>
+<footer>
+    🎈Copyright &copy; 2020
+</footer>
+</div>
+
+</body>
+</html>

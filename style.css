@@ -1,0 +1,265 @@
+body {
+	background-color: #00bb77;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+}
+
+/*----------------Propriétés du SLIDE (images qui defilent)-------------------*/
+
+.tof{
+	padding: 230px 150px 25px 150px; /*Espacement entre les marges et l'intérieur(contenu) : haut droit bas gauche*/
+	margin: -205px 0 -50px -100px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto; /*Espacement des marges*/
+}
+
+
+/* Propriétés de nombres (n / 5) */
+.numbertext {
+	color: black;
+	font-size: 25px;
+	padding: 20px 0 0 0;
+	position: absolute;
+}
+
+/* Animation du changement d'image */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+/*----------------------Propriétés de la page d'accueil-------------------------*/
+
+/*Propriétés du logo*/
+#logo{
+	margin: -205px -150px 0 -100px;
+	float: left;
+	clear: left;
+}
+
+/*Propriétés de la barre de recherche*/
+form{
+	width: 30%;
+	margin: -65px -100px 0 0;
+	float: right;
+	clear: right;
+}
+
+input{
+	height: 40px;
+	box-shadow: 0px 1px 2px black; /*Ombre*/
+}
+
+#boutton:hover{ /*Selecteur au survol de la souris*/
+	color: white;
+	background-color: #ffc107;
+	border: none;
+}
+
+.entete {
+	padding: 118px;
+	margin: -8px 0 0 0;
+	position: relative;
+	background: #35c98d;
+}
+
+nav ul li{
+	display: inline; /*Afficher les puces(<li>) horizontalement*/
+}
+
+.nav a{
+	text-decoration: none; /*Enlève les surlignement des liens*/
+	color: white;
+	font-size: 35px;
+	padding: 20px;
+	margin-left: 150px;
+	line-height: 80px;
+}
+
+.nav_main {
+	background-color: rgba(0,0,0,0.5);
+	height: 80px;
+	border-bottom: 10px solid #076599;
+	margin: -7px -9px 0 -7px;
+}
+
+.nav_main .lien.active, .nav_main .lien:hover{
+	color: yellow;
+	transition: all 0.5s ease;
+}
+
+.nav {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: auto;
+	top: auto;
+	padding: 0;
+	width: 98.8%;
+	margin-left: 7px;
+}
+
+.alerte,.call{
+	margin-right: 400px;
+	margin-left: 400px;
+	text-align: center;
+}
+
+.call{
+	background: #dc3545;
+	color: white;
+	padding: 15px;
+	margin-top: -25px;
+	box-shadow: 0px 0px 5px black;
+}
+
+#tel{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #ffc110;
+}
+
+#section1{
+	margin: 0 700px 0 20px;
+}
+
+#section2{
+	margin: 0 700px 0 20px;
+}
+
+#section3{
+	margin: -380px 10px 0px 660px;
+}
+
+#section4{
+	margin: -630px 0 200px 660px;
+}
+
+.content{
+	text-indent : 5%;
+	font-family: Arial;
+	font-size: 25px;
+	text-align: justify;
+}
+
+h2{
+	font-size: 40px;
+	color: green;
+	text-shadow: 0px 1px 1px green;
+
+}
+
+.contenu {
+	background-color: white;
+	width: 1300px;
+	margin: 0px auto;
+	font-size: 22px;
+}
+
+/*Propriétés du bouton permettant de revenir en haut*/
+.haut a{
+	text-decoration: none;
+	float: right;
+	margin-top: -30px;
+	font-size: 25px;
+	color: blue;
+}
+.haut a:hover{
+	color: green
+}
+
+footer {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 15px;
+	text-align: center;
+	border-top: 10px solid #076599;
+}
+
+/*----------------------Propriétés de la page situation-------------------------*/
+
+#content{
+	font-size: 25px;
+	padding: 20px 50px 5px 50px;
+	font-family: arial;
+	word-spacing: 3px;
+}
+
+#content div{
+	text-indent: 150px;
+	padding: 5px;
+}
+
+.texte{
+	font-weight: bold;
+}
+
+#stat{
+	width: 100%;
+		margin-bottom: 30px;
+}
+
+#riposte{
+	text-decoration: none;
+	font-size: 30px;
+	margin: 5px 0 5px 50px;
+}
+
+#riposte a{
+	text-decoration: none;
+	color: #00a86b;
+}
+
+#riposte a:hover, #riposte img:hover{
+	color: #ffc107;
+}
+
+#download{
+	margin: -0px 10px 0 0px;
+}
+
+/*----------------------Propriétés de la page zone-------------------------*/
+
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+margin: 0 100px 50px 100px;
+
+}
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+padding: 5px 10px 5px 10px;
+background-color: #D0E3FA;
+}
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+
+#stat1{
+	width: 100%;
+	margin-bottom: 30px;
+}

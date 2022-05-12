@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Covid-infos | Votre plateforme pour tou savoir sur le coronavirus</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien avec le fichier CSS externe -->
+    <link rel="icon" type="image/icon" href="img/logo.ico" /> <!-- Inserer l'icone du site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Rendre le site web réactif -->
+    <script type="text/javascript" src="script.js"></script> <!-- Lien avec le fichier JS externe -->
+</head>
+
+<body>
+
+    <div class="contenu">
+
+        <!-- Barre de navigation -->
+        <header class="entete" id="haut">
+         <a href="index.html"><img src="img/coronaok.png" alt="Logo" width="45%" id="logo"></a>
+         <form name="form1">
+            <input type="search" placeholder="Rechercher ici..." name="input">
+            <input type="submit" value="Rechercher" onclick="search(form1)" id="boutton">
+        </form>
+        <nav class="nav">
+            <div class="nav_main">
+                <ul>
+                    <li><a class="lien" href="index.html">Accueil</a></li>
+                    <li><a class="lien  active" href="situation.html">Situation nationale</a></li>
+                    <li><a class="lien" href="zone.html">Zône à risques</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenu de la page -->
+    <div class="contenu">
+
+        <section>
+            <h1 class="alerte">La maladie est bien réelle, ensemble adoptons les bons comportements</h1>
+            <div class="call">
+                Appelez le <a href="tel:3535" id="tel">📞3535</a> en cas de symptômes
+            </div>
+        </section>
+
+        <section id="content">
+            <div>
+                La République populaire de Chine a enregistré depuis le <span class="texte">31 décembre 2019</span> une épidémie de pneumonie due au Coronavirus. Initialement localisée dans la ville de Wuhan, province de Hubei, chez les commerçants et manutentionnaires d’un marché de poisson, l’épidémie s’est propagée aux autres villes du pays et même à l’extérieur.
+                En effet, du 31 décembre 2019 au 03 janvier 2020, 44 cas de pneumonie de cause non connue ont été notifiés à l’Organisation mondiale de la Santé (OMS) par les autorités chinoises. Le 07 janvier 2020, un nouveau type de Coronavirus a été détecté, et sa séquence génétique a été rendue disponible le 12 janvier 2020. A la date du 29 janvier 2020, un total de 7 818 cas confirmés ont été enregistrés en Chine dont 170 décès. Face à cette évolution, l’OMS a déclaré l’épidémie comme une urgence de santé publique de portée internationale le 30 janvier 2020. Les dernières données du 31 mars 2020 ont fait cas de plus de <span class="texte">803 650 personnes contaminées dans le monde avec 39 033 décès.</span> L’épicentre de l’épidémie s’est déplacé de la Chine vers les Etats Unis et les Pays de l’Europe. En outre, l’épidémie s’est rapidement propagée sur le continent africain.
+            </div>
+            <div>
+                La pandémie de Covid-19 se propage au Burkina Faso à partir du 9 mars 2020.
+
+                Les premiers cas de la maladie à coronavirus 2019 (Covid-19) au Burkina Faso ont été confirmés le <span class="texte">9 mars 2020, faisant du Burkina Faso le sixième pays atteint en Afrique subsaharienne</span> après le Cameroun, le Nigeria, Sénégal, l'Afrique du Sud et le Togo et quatrième en Afrique de l'Ouest. Au vu des débuts de l'évolution rapide du virus à travers le monde, les autorités burkinabés ont vite activé leur dispositif de gestion des épidémies de ce type, qui avait été mis en place lors de l'épidémie de maladie à virus Ebola en Afrique de l'Ouest au cours des années 2013-2014. Entre rumeurs et démentis depuis l'apparition du Covid-19, le Burkina finalement a enregistré deux premiers cas confirmés le 9 mars 2020. Quatre jours plus tard, le 13 mars 2020, le troisième cas est aussi confirmé. Ce troisième cas est une personne qui avait eu un contact direct avec les deux premiers.
+                <div>
+                À la date du 4 mai, sont enregistrés 16 nouveaux cas composés de 11 cas importés de Turquie et Niger et cinq cas domestiques repartis entre Ouaga quatre et Sebba un ; cinq nouvelles guérisons et 2 nouveaux décès. <span class="texte">Le total des cas compte 267 femmes et 421 hommes.</span>
+            </div>
+            <div>
+                <h2>Graphique synthétique de l'évolution des cas</h2>
+                <img src="img/stat.png" alt="statistique" id="stat">
+            </div>
+            </div>
+        </section>
+
+        <section id="riposte">
+            <a href="plan_de_riposte_covid19-revise_def.pdf" download="plan_de_riposte_covid19-revise_def.pdf" target="_blank"><img src="img/download.svg" width="30" id="download">Plan de préparation et de riposte</a>
+        </section>
+
+    </div>
+    <div class="haut"><a href="#haut"> Haut ☝🏾</a></div>
+    <footer>
+        🎈Copyright &copy; 2020
+    </footer>
+</div>
+
+</body>
+</html>
